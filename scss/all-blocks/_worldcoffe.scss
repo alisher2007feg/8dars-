@@ -1,0 +1,153 @@
+.world_in_coffe {
+    padding-top: 100px;
+    padding-left: 100px;
+
+    h2 {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin: 0;
+
+    }
+
+    .world_div {
+    display: flex;
+    gap: 180px;
+    padding-top: 72px;
+
+
+
+        .world_card {
+            width: 275px;
+            h5 {
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 36px;
+                margin: 0;
+                padding-top: 45px;
+                color: #333D4B;
+                padding-bottom:24px ;
+            }
+
+            p {
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                margin: 0;
+                color: #333D4B;
+                width: 150px;
+            }
+
+        }
+    }
+
+}
+
+
+
+
+@media (max-width: 920px) {
+
+
+
+    .world_in_coffe {
+        padding-top: 100px;
+        padding-left: 100px;
+    
+      
+    
+        .world_div {
+        display: flex;
+        gap: 10px;
+        padding-top: 72px;
+    
+    
+    
+            .world_card {
+                width: 275px;
+                h5 {
+                   
+                    font-size: 24px;
+                   
+                   
+                }
+    
+               
+            }
+        }
+    
+    }
+
+}
+
+@media (max-width: 590px){
+
+
+    .world_in_coffe {
+        padding-top: 100px;
+        padding-left: 40px;
+    
+        h2 {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            color: #83888F;
+            margin: 0;
+    
+        }
+    
+        .world_div {
+        display: grid;
+        grid-template-columns: auto;
+        padding-top: 72px;
+    
+    
+    
+            .world_card {
+                text-align: center;
+                width: 275px;
+                padding-bottom: 30px;
+                h5 {
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    margin: 0;
+                    padding-top: 45px;
+                    color: #333D4B;
+                    padding-bottom:24px ;
+                    text-align: center;
+                }
+    
+                p {
+                    font-family: 'Barlow';
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    margin: 0;
+                    color: #333D4B;
+                    width: 150px;
+                    padding-left: 60px;
+                }
+    
+            }
+        }
+    
+    }
+    
+
+
+
+}

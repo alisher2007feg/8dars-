@@ -1,0 +1,242 @@
+.footer {
+    padding: 200px 0px 50px 0px;
+
+    .footer_div {
+        width: 1280px;
+        height: 120px;
+        background-color: #2C343E;
+        display: flex;
+        align-items: center;
+        padding-left: 86px;
+
+
+        img {
+            height: 26px;
+            width: 236px;
+            padding-right: 103px;
+
+
+        }
+
+
+        .nav {
+            .nav__list_footer {
+                display: flex;
+                gap: 33px;
+
+                .nav__item_footer {
+                    list-style: none;
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #83888F;
+                    margin: 0;
+
+
+                    &:hover {
+                        color: #FEFCF7;
+                        font-weight: 700;
+
+                    }
+                }
+            }
+        }
+
+        .linkslar {
+            display: flex;
+            width: 120px;
+            gap: 24px;
+            padding-left: 391px;
+
+            img {
+                width: 24px;
+                height: 24px;
+                margin: 0;
+               padding: 0;
+            }
+        }
+
+
+
+
+    }
+}
+
+
+
+@media (max-width: 920px){
+
+    .footer {
+        padding: 120px 0px 70px 0px;
+    
+        .footer_div {
+            width: 687px;
+            height: 270px;
+          
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            text-align: center;
+            
+    
+    
+            img {
+                height: 26px;
+                width: 236px;
+                padding: 0;
+                padding-bottom: 10px;
+                padding-left: 30px;
+                justify-content: center;
+                text-align: center;
+              
+    
+    
+            }
+    
+    
+            .nav {
+                .nav__list_footer {
+                    display: flex;
+                    gap: 23px;
+                    padding: 0;
+                    justify-content: center;
+    
+                    .nav__item_footer {
+                        list-style: none;
+                        font-family: 'Barlow';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #83888F;
+                        margin: 0;
+    
+    
+                        &:hover {
+                            color: #FEFCF7;
+                            font-weight: 700;
+    
+                        }
+                    }
+                }
+            }
+    
+            .linkslar {
+                display: flex;
+                width: 120px;
+                gap: 24px;
+                
+                margin: 0 auto;
+                padding: 0;
+                padding-left: 0px;
+                justify-content: center;
+               
+    
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin: 0;
+                   padding: 0;
+                }
+            }
+    
+    
+    
+    
+        }
+    }
+
+}
+
+
+
+
+@media (max-width: 590px){
+
+    .footer {
+        padding: 120px 0px 70px 40px;
+    
+        .footer_div {
+            width: 307px;
+            height: 346px;
+          
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            text-align: center;
+            
+    
+    
+            img {
+                height: 26px;
+                width: 236px;
+                padding: 0;
+                padding-bottom: 0px;
+                padding-left: 0px;
+                padding-right: 90px;
+                justify-content: center;
+                text-align: center;
+              
+    
+    
+            }
+    
+    
+            .nav {
+                .nav__list_footer {
+                    display: grid;
+                    grid-template-columns: auto;
+                    
+                    gap: 23px;
+                    padding: 0;
+                    justify-content: center;
+    
+                    .nav__item_footer {
+                        list-style: none;
+                        font-family: 'Barlow';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 15px;
+                        color: #83888F;
+                        margin: 0;
+                        padding-right: 90px;
+                       
+    
+    
+                        &:hover {
+                            color: #FEFCF7;
+                            font-weight: 700;
+    
+                        }
+                    }
+                }
+            }
+    
+            .linkslar {
+                display: flex;
+                width: 120px;
+                margin: 0 auto;
+                padding: 0;
+                padding-left: 0px;
+                justify-content: center;
+                padding-right: 90px;
+               
+    
+                img {
+                    width: 24px;
+                    height: 24px;
+                    margin: 0;
+                   padding: 0;
+                }
+            }
+    
+    
+    
+    
+        }
+    }
+
+}

@@ -1,0 +1,222 @@
+.quality {
+    padding-top: 244px;
+
+
+    .bac__div_quality {
+        position: relative;
+
+        height: 474px;
+        width: 1280px;
+
+        border-radius: 10px;
+        background-color: #2C343E;
+
+
+        h2 {
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            padding-top: 88px;
+            padding-left: 85px;
+            margin: 0;
+
+
+            color: #FEFCF7;
+        }
+
+        p {
+            font-family: 'Barlow';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            padding-top: 32px;
+            padding-left: 85px;
+            margin: 0;
+
+
+            color: #FEFCF7;
+            width: 540px;
+        }
+
+        .acup_of_coffe {
+            position: absolute;
+            right: 51px;
+            bottom: 136px;
+
+            img {
+                border-radius: 8px;
+            }
+        }
+
+        .acup_of_coffe2{
+            display: none;
+        }
+    }
+
+}
+
+
+
+
+@media (max-width: 920px) {
+
+
+    .quality {
+        padding-top: 244px;
+
+
+        .bac__div_quality {
+            position: relative;
+
+            height: 488px;
+            width: 688px;
+
+            border-radius: 10px;
+
+
+            border-radius: 10px;
+            background-color: #2C343E;
+
+
+            h2 {
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 48px;
+                padding-top: 208px;
+                padding-left: 135px;
+                margin: 0;
+                width: 413px;
+
+
+                color: #FEFCF7;
+            }
+
+            p {
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                padding-top: 32px;
+                padding-left: 85px;
+                margin: 0;
+                text-align: center;
+
+
+                color: #FEFCF7;
+                width: 540px;
+            }
+
+            .acup_of_coffe2{
+                display: block;
+                position: absolute;
+                right: 51px;
+                bottom: 336px;
+
+                img {
+                    height: 320px;
+                    width: 573px;
+                    border-radius: 8px;
+
+                }
+            }
+
+            .acup_of_coffe {
+               display: none;
+
+              
+            }
+        }
+
+    }
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 590px) {
+
+
+    .quality {
+        padding-top: 244px;
+        padding-right: 0;
+
+
+        .bac__div_quality {
+            position: relative;
+
+            height: 509px;
+            width: 327px; 
+            border-radius: 10px;
+            background-color: #2C343E;
+
+
+            h2 {
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 48px;
+                padding-top: 122px;
+                padding-left: 25px;
+                margin: 0;
+                width: 279px;
+                text-align: center;
+
+
+                color: #FEFCF7;
+            }
+
+            p {
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                padding-top: 24px;
+                padding-left: 24px;
+                margin: 0;
+                text-align: center;
+
+
+                color: #FEFCF7;
+                width: 279px;
+            }
+
+            .acup_of_coffe2{
+                display: block;
+                position: absolute;
+                right: 24px;
+                bottom: 416px;
+
+                img {
+                    height: 156px;
+                    width: 279px;
+                    border-radius: 8px;
+
+                }
+            }
+
+            .acup_of_coffe {
+               display: none;
+
+              
+            }
+        }
+
+    }
+
+
+
+
+}

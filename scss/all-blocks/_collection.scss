@@ -1,0 +1,154 @@
+.collc {
+    padding-left: 165px;
+    padding-bottom: 50px;
+
+    .collection {
+        background-image: url(../img/collection.svg);
+        height: 600px;
+        background-size: 85%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        
+
+
+        .coffe-our-collection {
+            padding-top: 120px;
+            display: flex;
+            gap: 30px;
+
+            .coffe-card {
+                h4 {
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 24px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #333D4B;
+                    width: 255px;
+                }
+
+                p {
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #333D4B;
+                    width: 255px;
+
+                }
+
+            }
+
+        }
+
+
+
+    }
+
+}
+
+
+@media (max-width: 920px) {
+
+    .collc {
+        padding-left: 65px;
+        padding-bottom: 200px;
+    
+    
+        .collection {
+      
+            .coffe-our-collection {
+                padding-top: 120px;
+                display: grid;
+                grid-template-columns: auto;
+                gap: 30px;
+    
+                .coffe-card {
+                    display: flex;
+                    h4 {
+                       
+                        text-align: left;
+                   
+                        width: 255px;
+                    }
+    
+                    p {
+                       
+                      
+                    
+                        text-align: left;
+                       
+                        width: 285px;
+    
+                    }
+    
+                }
+    
+            }
+    
+    
+    
+        }
+    
+    }
+
+
+
+
+
+}
+
+
+
+@media (max-width: 590px) {
+
+    .collc {
+        padding-left: 65px;
+        padding-bottom: 700px;
+    
+    
+        .collection {
+      
+            .coffe-our-collection {
+                padding-top: 120px;
+                display: grid;
+                grid-template-columns: auto;
+                gap: 30px;
+    
+                .coffe-card {
+                    display: block;
+                    h4 {
+                       
+                        text-align: center;
+                   
+                        width: 255px;
+                    }
+    
+                    p {
+                       
+                      
+                    
+                        text-align: center;
+                       
+                        width: 285px;
+    
+                    }
+    
+                }
+    
+            }
+    
+    
+    
+        }
+    
+    }
+
+
+
+
+
+}

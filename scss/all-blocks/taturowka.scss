@@ -1,0 +1,158 @@
+.taturoka {
+    padding-left: 200px;
+
+
+    .tatur_text {
+        display: flex;
+        gap: 125px;
+
+        img {
+            border-radius: 8px;
+        }
+
+
+
+        .taturowka_text {
+            padding-top: 90px;
+
+            h3 {
+                font-family: 'Fraunces';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 40px;
+                line-height: 48px;
+                color: #333D4B;
+                margin: 0;
+            }
+
+            p {
+                font-family: 'Barlow';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #333D4B;
+                width: 540px;
+                margin: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+@media (max-width: 920px) {
+
+
+    .taturoka {
+        padding-left: 30px;
+
+
+        .tatur_text {
+            display: flex;
+            gap: 69px;
+
+            img {
+                border-radius: 8px;
+                height: 470px;
+                width: 281px;
+
+
+            }
+
+
+
+            .taturowka_text {
+                padding-top: 50px;
+
+                h3 {
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 48px;
+                    color: #333D4B;
+                    margin: 0;
+                }
+
+                p {
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333D4B;
+                    width: 339px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+
+
+
+}
+
+
+@media (max-width: 590px) {
+
+
+
+    .taturoka {
+        padding-left: 50px;
+        padding-top: 100px;
+        padding-right: 0;
+
+
+        .tatur_text {
+            display: block;
+
+
+            img {
+              
+                height: 400px;
+                width: 327px;
+               
+                border-radius: 8px;
+
+            }
+
+
+
+            .taturowka_text {
+                padding-top: 50px;
+
+                h3 {
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 48px;
+                    color: #333D4B;
+                    margin: 0;
+                    width: 327px;
+                    padding-bottom: 30px;
+                }
+
+                p {
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #333D4B;
+                    width: 327px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+
+
+
+}

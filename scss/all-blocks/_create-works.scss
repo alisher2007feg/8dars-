@@ -1,0 +1,85 @@
+.create_works {
+
+    // padding-left: 205px;
+    padding-left: 0px;
+
+    .create_bac_div {
+        background-color: #2C343E;
+        height: 653px;
+        width: 1280px;
+
+        border-radius: 10px;
+        padding-left: 85px;
+        padding-top: 100px;
+
+
+
+
+        .imgs_div {
+            display: flex;
+            position: relative;
+
+            .midle {
+                position: absolute;
+
+                left: 389px;
+
+            }
+
+            .path {
+                width: 760px;
+            }
+        }
+
+        .numbers_div {
+            padding-top: 62px;
+            display: flex;
+            gap: 95px;
+
+            .numbers_card {
+
+                h2 {
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 72px;
+                    line-height: 72px;
+                    color: #FDD6BA;
+                    margin: 0;
+                    padding-bottom: 38px;
+
+                }
+
+                h5 {
+                    font-family: 'Fraunces';
+                    font-style: normal;
+                    font-weight: 900;
+                    font-size: 32px;
+                    line-height: 36px;
+                    color: #FEFCF7;
+                    width: 255px;
+                    margin: 0;
+                    padding-bottom: 42px;
+
+                }
+
+                p {
+                    font-family: 'Barlow';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #FEFCF7;
+                    width: 285px;
+
+                }
+            }
+
+        }
+
+       
+
+    }
+
+
+}
